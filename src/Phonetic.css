@@ -1,0 +1,16 @@
+.Phonetic i {
+  color: #f76b8a;
+}
+
+.Phonetic .phonetic-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: #666;
+  display: inline;
+  margin-left: 5px;
+}
+
+.Phonetic i:hover {
+  color: #f70776;
+}

@@ -1,0 +1,19 @@
+.Synonyms {
+  padding-left: 0px;
+}
+
+.Synonyms li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 15px 0px 0px;
+  font-size: 14px;
+  border: 1px solid #f76b8a;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #f76b8a;
+  color: #eaf6f6;
+}
+
+.Synonyms li:hover {
+  background-color: #f70776;
+}

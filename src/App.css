@@ -2,7 +2,25 @@ body {
   background-color: #eaf6f6;
 }
 
+.App header {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 46px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #f76b8a;
+  max-width: fit-content;
+}
+
 .App footer {
   text-align: center;
-  margin: 30px 0px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.App {
+  padding: 0px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
 }

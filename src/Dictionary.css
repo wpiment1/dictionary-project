@@ -1,9 +1,9 @@
 .Dictionary section {
   background-color: white;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 40px;
+  border-radius: 20px;
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
-  margin: 20px 0px 0px 20px;
+  margin: 20px 20px 0px 20px;
 }
 
 .Dictionary input {
@@ -12,4 +12,19 @@
   padding: 6px 10px;
   color: #333;
   border: 1px solid black;
+}
+
+.Dictionary h2 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
+}
+
+.Dictionary .hint {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
 }
