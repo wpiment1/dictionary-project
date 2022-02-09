@@ -5,3 +5,9 @@
   line-height: 25px;
   color: #000;
 }
+
+@media (max-width: 576px) {
+  .Results .result-word {
+    font-size: 32px;
+  }
+}

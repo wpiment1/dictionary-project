@@ -1,7 +1,6 @@
 .Meaning h3 {
   font-style: italic;
   font-size: 24px;
-  /* opacity: 0.8; */
   font-weight: 500;
 }
 
@@ -9,7 +8,7 @@
   margin-left: 30px;
 }
 
-.Meaning .definiton {
+.Meaning .definition {
   font-size: 16px;
   display: block;
   margin-top: 10px;
@@ -21,4 +20,18 @@
   font-size: 14px;
   opacity: 0.8;
   margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .Meaning h3 {
+    font-size: 20px;
+  }
+
+  .Meaning .definition {
+    font-size: 14px;
+  }
+
+  .Meaning .example {
+    font-size: 12px;
+  }
 }

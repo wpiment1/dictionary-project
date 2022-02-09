@@ -17,3 +17,9 @@
 .Synonyms li:hover {
   background-color: #f70776;
 }
+
+@media (max-width: 576px) {
+  .Synonyms li {
+    font-size: 12px;
+  }
+}
