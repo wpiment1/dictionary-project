@@ -45,7 +45,7 @@ export default function Dictionary() {
         <div className="hint">i.e. sunset, wine, banana...</div>
       </section>
       <Results results={results} />
-      <Photos photos={photos} />
+      <Photos photos={photos} description={keyword}/>
     </div>
   );
 }
